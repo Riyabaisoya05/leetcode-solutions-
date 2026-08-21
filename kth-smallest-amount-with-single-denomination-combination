@@ -1,0 +1,18 @@
+// my approach of solving as beginner ...522/561 test run passed....memmory exceed is the problem
+
+/*class Solution {   
+public:
+    long long findKthSmallest(vector<int>& coins, int k) {
+        set<long long>s;
+        long long t=k;
+        for(auto x:coins)
+        {
+            for(long long i=1;i<=k;i++){
+                s.insert(x*i);
+
+            }
+        }
+        vector<long long>v(s.begin(),s.end());
+        return v[k-1];
+    }
+};*/
